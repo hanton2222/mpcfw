@@ -8,7 +8,8 @@ SERVICE_TYPE = '_apple-lgremote._tcp.local.'
 
 HOST_TYPES = {
 	b'0': 'logic pro',
-	b'1': 'garageband'
+	b'1': 'garageband',
+	b'2': 'mainstage'
 }
 
 class Service(object):
